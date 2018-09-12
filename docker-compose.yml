@@ -1,7 +1,7 @@
 version: '3.6'
 
 services:
-  research-lab:
+  project-jupyterlab:
     build:
       context: ./
       dockerfile: ./Dockerfile
@@ -10,4 +10,4 @@ services:
     ports:
       - 9001:9001
     volumes:
-      - './code:/opt/jupyterlab'
+      - './:/opt/jupyterlab'

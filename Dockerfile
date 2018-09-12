@@ -41,7 +41,7 @@ WORKDIR /opt/jupyterlab
 # Put commands here to insall certain packages as part of the image build
 
 # Example default package installation
-# RUN pip3 install numpy scipy matplotlib
+RUN pip3 install numpy scipy matplotlib
 
 ##########################
 # Launch Notebook Server #
