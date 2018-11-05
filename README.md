@@ -70,7 +70,7 @@ After having built the image, simply start the jupyterlab server using:
 docker-compose up
 ```
 
-Now you can point your browser of choice to `localhost:9001` to view the
+Now you can point your browser of choice to `localhost:9999` to view the
 notebook.
 
 ## Running Unit Tests
